@@ -1,4 +1,4 @@
-let sum = 0;
+let sum = 1;
 let arrValue = [];
 for(value = 5; value >0; value --){
     let i = value;
@@ -6,6 +6,6 @@ for(value = 5; value >0; value --){
 }
 console.log(arrValue);
 for (let i = 0; i < 5; i++) {
-    sum += arrValue[i];
+    sum *= arrValue[i];
 }
 console.log(sum);
